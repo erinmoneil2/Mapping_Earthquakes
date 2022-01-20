@@ -26,7 +26,7 @@ L.polyline(line, {
   color: "blue",
   weight: 4,
   opacity: 0.5,
-  dashArray: '5,10'
+  dashArray: '4,10'
 }).addTo(map);
 
 
