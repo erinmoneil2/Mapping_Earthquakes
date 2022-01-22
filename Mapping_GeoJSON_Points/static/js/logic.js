@@ -39,6 +39,6 @@ L.geoJSON(data, {
   pointToLayer:function(feature, latlng) {
     console.log(feature);
     return L.marker(latlng)
-    .bindPopup('Airport code: ' + feature.properties.faa);
+    .bindPopup("<h3>Airport code: " + feature.properties.faa + "</h3> <hr> <h3>Airport Name: " + feature.properties.name + "</h3>");
 }}).addTo(map);
 });
